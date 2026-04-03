@@ -77,6 +77,7 @@ const PROJECTS: {
     name: 'Polymarket Analysis Bot',
     desc: 'A CLI tool (built with a friend) for scraping Polymarket prediction market data and surfacing trade suggestions based on historical trends. Uses a dependency-injection factory function architecture to keep the codebase testable and consistent across contributors.',
     tags: ['Node.js', 'TypeScript', 'CLI'],
+    href: 'https://github.com/liam-michel/polymarket-bot/',
   },
   {
     name: 'Gym Fitness App',
@@ -209,7 +210,7 @@ function Projects() {
               </div>
               {p.href && (
                 <a href={p.href} className="project-link">
-                  View →
+                  View code →
                 </a>
               )}
             </div>
