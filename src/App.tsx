@@ -80,6 +80,12 @@ const PROJECTS: {
     href: 'https://github.com/liam-michel/polymarket-bot/',
   },
   {
+    name: 'Validated Form Library (validated-form)',
+    desc: 'A React form library built with Typescript, Zod and React Hook Form. Intended to be a convenient drop-in solution for projects that need validated forms without the overhead of setting up the validation and form state management themselves. Built with a focus on type-safety and developer experience. Published to npm and open-sourced on GitHub.',
+    tags: ['React', 'TypeScript', 'Zod', 'React Hook Form'],
+    href: 'https://github.com/liam-michel/validated-form/',
+  },
+  {
     name: 'Gym Fitness App',
     desc: 'Led a seven-person team at university to build a Django web application that generates personalised workout routines based on user measurements and fitness goals. Responsible for distributing tasks and keeping the team on track throughout the project.',
     tags: ['Python', 'Django', 'MySQL'],
