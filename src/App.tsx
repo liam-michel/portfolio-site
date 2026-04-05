@@ -86,6 +86,12 @@ const PROJECTS: {
     href: 'https://github.com/liam-michel/validated-form/',
   },
   {
+    name: 'csTaskApi',
+    desc: 'A simple Task management API built with C# a1nd .NET. Built to get experience with C# and .NET, and the DI container architecture. Implements a REST API with CRUD endpoints',
+    tags: ['C#', '.NET', 'REST API'],
+    href: 'https://github.com/liam-michel/csTaskApi',
+  },
+  {
     name: 'Gym Fitness App',
     desc: 'Led a seven-person team at university to build a Django web application that generates personalised workout routines based on user measurements and fitness goals. Responsible for distributing tasks and keeping the team on track throughout the project.',
     tags: ['Python', 'Django', 'MySQL'],
