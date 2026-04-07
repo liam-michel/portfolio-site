@@ -87,7 +87,7 @@ const PROJECTS: {
   },
   {
     name: 'csTaskApi',
-    desc: 'A simple Task management API built with C# a1nd .NET. Built to get experience with C# and .NET, and the DI container architecture. Implements a REST API with CRUD endpoints',
+    desc: 'A simple Task management API built with C# and .NET. Built to get experience with C# and .NET, and the DI container architecture. Implements a REST API with CRUD endpoints',
     tags: ['C#', '.NET', 'REST API'],
     href: 'https://github.com/liam-michel/csTaskApi',
   },
