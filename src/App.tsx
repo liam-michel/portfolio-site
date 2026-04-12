@@ -47,7 +47,7 @@ const EXPERIENCE = [
     date: 'June — Sept 2023',
     role: 'Software Engineer Intern',
     company: 'Notifi Network · Seattle (Remote)',
-    desc: 'Built a containerised development environment that let customers and internal developers pull a single Docker image and get a fully functional setup — no dependency management required. Implemented the authentication system for the container using Node.js, TypeScript, and GraphQL. Also designed and built a workflow for uploading and downloading parser modules to and from S3, enabling a clean distribution model for internal tooling. Participated in daily standups with a 15+ person engineering team.',
+    desc: 'Worked on a containerised development environment that let customers and internal developers pull a single Docker image and get a fully functional setup — no dependency management required. Also designed and built a workflow for uploading and downloading parser modules to and from S3, enabling a clean distribution model for internal tooling. Participated in daily standups with a 15+ person engineering team.',
     tags: ['Node.js', 'TypeScript', 'GraphQL', 'Docker', 'AWS S3', 'Bash'],
   },
   {
@@ -73,30 +73,30 @@ const PROJECTS: {
   tags: string[];
   href?: string;
 }[] = [
-  {
-    name: 'Polymarket Analysis Bot',
-    desc: 'A CLI tool (built with a friend) for scraping Polymarket prediction market data and surfacing trade suggestions based on historical trends. Uses a dependency-injection factory function architecture to keep the codebase testable and consistent across contributors.',
-    tags: ['Node.js', 'TypeScript', 'CLI'],
-    href: 'https://github.com/liam-michel/polymarket-bot/',
-  },
-  {
-    name: 'Validated Form Library (validated-form)',
-    desc: 'A React form library built with Typescript, Zod and React Hook Form. Intended to be a convenient drop-in solution for projects that need validated forms without the overhead of setting up the validation and form state management themselves. Built with a focus on type-safety and developer experience. Published to npm and open-sourced on GitHub.',
-    tags: ['React', 'TypeScript', 'Zod', 'React Hook Form'],
-    href: 'https://github.com/liam-michel/validated-form/',
-  },
-  {
-    name: 'csTaskApi',
-    desc: 'A simple Task management API built with C# and .NET. Built to get experience with C# and .NET, and the DI container architecture. Implements a REST API with CRUD endpoints',
-    tags: ['C#', '.NET', 'REST API'],
-    href: 'https://github.com/liam-michel/csTaskApi',
-  },
-  {
-    name: 'Gym Fitness App',
-    desc: 'Led a seven-person team at university to build a Django web application that generates personalised workout routines based on user measurements and fitness goals. Responsible for distributing tasks and keeping the team on track throughout the project.',
-    tags: ['Python', 'Django', 'MySQL'],
-  },
-];
+    {
+      name: 'Polymarket Analysis Bot',
+      desc: 'A CLI tool (built with a friend) for scraping Polymarket prediction market data and surfacing trade suggestions based on historical trends. Uses a dependency-injection factory function architecture to keep the codebase testable and consistent across contributors.',
+      tags: ['Node.js', 'TypeScript', 'CLI'],
+      href: 'https://github.com/liam-michel/polymarket-bot/',
+    },
+    {
+      name: 'Validated Form Library (validated-form)',
+      desc: 'A React form library built with Typescript, Zod and React Hook Form. Intended to be a convenient drop-in solution for projects that need validated forms without the overhead of setting up the validation and form state management themselves. Built with a focus on type-safety and developer experience. Published to npm and open-sourced on GitHub.',
+      tags: ['React', 'TypeScript', 'Zod', 'React Hook Form'],
+      href: 'https://github.com/liam-michel/validated-form/',
+    },
+    {
+      name: 'csTaskApi',
+      desc: 'A simple Task management API built with C# and .NET. Built to get experience with C# and .NET, and the DI container architecture. Implements a REST API with CRUD endpoints',
+      tags: ['C#', '.NET', 'REST API'],
+      href: 'https://github.com/liam-michel/csTaskApi',
+    },
+    {
+      name: 'Gym Fitness App',
+      desc: 'Led a seven-person team at university to build a Django web application that generates personalised workout routines based on user measurements and fitness goals. Responsible for distributing tasks and keeping the team on track throughout the project.',
+      tags: ['Python', 'Django', 'MySQL'],
+    },
+  ];
 
 function Navbar() {
   return (
