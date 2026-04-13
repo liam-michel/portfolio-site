@@ -47,7 +47,7 @@ const EXPERIENCE = [
     date: 'June — Sept 2023',
     role: 'Software Engineer Intern',
     company: 'Notifi Network · Seattle (Remote)',
-    desc: 'Worked on a containerised development environment that let customers and internal developers pull a single Docker image and get a fully functional setup — no dependency management required. Also designed and built a workflow for uploading and downloading parser modules to and from S3, enabling a clean distribution model for internal tooling. Participated in daily standups with a 15+ person engineering team.',
+    desc: 'Worked on a containerised development environment that let customers and internal developers pull a single Docker image and get a fully functional setup — no dependency management required. Also designed and built a workflow for uploading and downloading parser modules to and from S3, enabling a clean distribution model for internal tooling. Participated in daily standups with the engineering team.',
     tags: ['Node.js', 'TypeScript', 'GraphQL', 'Docker', 'AWS S3', 'Bash'],
   },
   {
