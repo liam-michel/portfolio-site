@@ -73,30 +73,42 @@ const PROJECTS: {
   tags: string[];
   href?: string;
 }[] = [
-    {
-      name: 'Polymarket Analysis Bot',
-      desc: 'A CLI tool (built with a friend) for scraping Polymarket prediction market data and surfacing trade suggestions based on historical trends. Uses a dependency-injection factory function architecture to keep the codebase testable and consistent across contributors.',
-      tags: ['Node.js', 'TypeScript', 'CLI'],
-      href: 'https://github.com/liam-michel/polymarket-bot/',
-    },
-    {
-      name: 'Validated Form Library (validated-form)',
-      desc: 'A React form library built with Typescript, Zod and React Hook Form. Intended to be a convenient drop-in solution for projects that need validated forms without the overhead of setting up the validation and form state management themselves. Built with a focus on type-safety and developer experience. Published to npm and open-sourced on GitHub.',
-      tags: ['React', 'TypeScript', 'Zod', 'React Hook Form'],
-      href: 'https://github.com/liam-michel/validated-form/',
-    },
-    {
-      name: 'csTaskApi',
-      desc: 'A simple Task management API built with C# and .NET. Built to get experience with C# and .NET, and the DI container architecture. Implements a REST API with CRUD endpoints',
-      tags: ['C#', '.NET', 'REST API'],
-      href: 'https://github.com/liam-michel/csTaskApi',
-    },
-    {
-      name: 'Gym Fitness App',
-      desc: 'Led a seven-person team at university to build a Django web application that generates personalised workout routines based on user measurements and fitness goals. Responsible for distributing tasks and keeping the team on track throughout the project.',
-      tags: ['Python', 'Django', 'MySQL'],
-    },
-  ];
+  {
+    name: 'Polymarket Analysis Bot',
+    desc: 'A CLI tool (built with a friend) for scraping Polymarket prediction market data and surfacing trade suggestions based on historical trends. Uses a dependency-injection factory function architecture to keep the codebase testable and consistent across contributors.',
+    tags: ['Node.js', 'TypeScript', 'CLI'],
+    href: 'https://github.com/liam-michel/polymarket-bot/',
+  },
+  {
+    name: 'Validated Form Library (validated-form)',
+    desc: 'A React form library built with Typescript, Zod and React Hook Form. Intended to be a convenient drop-in solution for projects that need validated forms without the overhead of setting up the validation and form state management themselves. Built with a focus on type-safety and developer experience. Published to npm and open-sourced on GitHub.',
+    tags: ['React', 'TypeScript', 'Zod', 'React Hook Form'],
+    href: 'https://github.com/liam-michel/validated-form/',
+  },
+  {
+    name: 'Node development Environment',
+    desc: 'A dockerised development environment for Node.js projects, built to be a convenient all-in-one solution for developers to write code without needing to worry about setting up dependencies or managing their local environment. Includes a simple bootstrap script to setup the container.',
+    tags: [
+      'Docker',
+      'Bash',
+      'Node.js',
+      'Typescript',
+      'Host to container file syncing',
+    ],
+    href: 'https://github.com/liam-michel/node-dev-env',
+  },
+  {
+    name: 'csTaskApi',
+    desc: 'A simple Task management API built with C# and .NET. Built to get experience with C# and .NET, and the DI container architecture. Implements a REST API with CRUD endpoints',
+    tags: ['C#', '.NET', 'REST API'],
+    href: 'https://github.com/liam-michel/csTaskApi',
+  },
+  {
+    name: 'Gym Fitness App',
+    desc: 'Led a seven-person team at university to build a Django web application that generates personalised workout routines based on user measurements and fitness goals. Responsible for distributing tasks and keeping the team on track throughout the project.',
+    tags: ['Python', 'Django', 'MySQL'],
+  },
+];
 
 function Navbar() {
   return (
